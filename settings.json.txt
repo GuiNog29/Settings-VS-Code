@@ -16,12 +16,6 @@
   "editor.fontLigatures": false,
   "editor.lineHeight": 22,
   "update.mode": "manual",
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features",
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    }
-  },
   "[javascriptreact]": {
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
@@ -79,7 +73,6 @@
     "*.webpack.js": "webpack"
   },
   "editor.suggestSelection": "first",
-  // Configurações da fonte JetBrains Mono
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
   "explorer.compactFolders": false,
@@ -113,5 +106,8 @@
   "liveServer.settings.donotVerifyTags": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "files.autoSave": "onFocusChange",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
   "security.workspace.trust.untrustedFiles": "open"
 }
